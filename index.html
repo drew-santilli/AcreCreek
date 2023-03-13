@@ -22,7 +22,7 @@
     <div class="container">
       <article>
         <label for="name" id="name-label">Name</label>
-        <input type="text" id="name" placeholder="John Doe" />
+        <input type="text" id="name" placeholder="John Doe" required />
       </article>
       <article>
         <label for="email" id="email-label">Email<input id="email" type="email" placeholder="johndoe@example.com"
@@ -53,12 +53,30 @@
         <option>Drama</option>
         <option>Comedy</option>
         <option>Thriller</option>
-        <option>Occult & Esoteric</option>
+        <option>Horror</option>
+        <option>Scifi</option>
+        <option>Fantasy</option>
       </select>
     </section>
-    <button>Submit</button>
 
-    <!-- </fieldset> -->
+    <fieldset id="camping">
+      <legend>Camping?
+      </legend>
+      <div>
+        <input type="checkbox" name="camping" id="camping" value="camping">
+        <label for="camping" id="camping-label">Camping</label>
+      </div>
+      <div>
+        <input type="checkbox" name="camping" id="camping" value="camping">
+        <label for="camping" id="camping-label">Not Camping</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+      <label for="suggestions" id="suggestions-label">Suggestions?</label>
+    </fieldset>
+
+    <button>Submit</button>
     </fieldset>
     </div>
   </form>

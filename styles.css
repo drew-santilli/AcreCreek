@@ -37,7 +37,12 @@ input {
 }
 
 label {
-  color: rgb(225, 120, 77);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(111, 133, 242),
+      rgb(37, 255, 100), black);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 legend {
